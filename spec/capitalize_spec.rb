@@ -1,7 +1,7 @@
 require 'capitalize'
 describe 'capitalize' do
 	it 'word returns word' do
-		expect(capitalize('word')).to eq "word"
+		expect(capitalize('word')).to be_a String
 	end
 	it 'returns Word when passed word' do
 		expect(capitalize('word')).to eq "Word"

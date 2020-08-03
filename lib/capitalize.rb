@@ -1,3 +1,3 @@
 def capitalize(word)
-  word
+    return word.capitalize
 end
